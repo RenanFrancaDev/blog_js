@@ -4,12 +4,22 @@
   
   body {
     padding: 15px;
+    background-color: #bf97dc;
   }
   
   .hide {
     display: none;
   }
-  
+
+  h2{
+    text-transform: capitalize;
+  }
+
+  p::first-letter{
+    text-transform: uppercase;
+    text-align: left;
+  }
+
   a,
   input[type="submit"] {
     background-color: #007bff;
@@ -46,4 +56,13 @@
   form input,
   form textarea {
     padding: 5px;
+  }
+
+  .container-post{
+    background-color: #fff;
+    border: 1px solid ;
+    width: 650px;
+    padding: 20px 10px 20px;
+    margin: 20px 0;
+    text-align: left;
   }

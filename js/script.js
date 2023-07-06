@@ -38,6 +38,8 @@ async function getAllPosts() {
     link.innerText = "Ler";
     link.setAttribute("href", `/post.html?id=${post.id}`);
 
+    div.classList.add("container-post")
+
     div.appendChild(title);
     div.appendChild(body);
     div.appendChild(link);
